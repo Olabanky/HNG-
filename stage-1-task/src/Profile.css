@@ -1,0 +1,91 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+  width: 1152px;
+  height: 142px;
+  background: white;
+}
+.profile_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+}
+
+.twitter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 1152px;
+  height: 30px;
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 1; */
+}
+
+.twitter > h5 {
+  width: 1152px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #101828;
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 0;
+  flex-grow: 1; */
+}
+.avatar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 390px;
+  top: 45px;
+  background: #ffffff;
+  border: 1px dashed #d0d5dd;
+  border-radius: 20px;
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2; */
+}
+.avatar_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 15%;
+  bottom: 15%;
+  border-radius: 12px;
+}

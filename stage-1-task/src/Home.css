@@ -1,0 +1,12 @@
+.stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding: 64px 112px;
+  gap: 24px;
+  width: 1440px;
+  height: 998px;
+  left: 0px;
+  top: 0px;
+}
