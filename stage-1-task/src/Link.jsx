@@ -22,8 +22,6 @@ const Link = () => {
         <button className="frame">
           <a id="books" href="http://books.zuri.team">
             Zuri Books
-            {/* <sub>Find books abou
-              t design and coding here</sub> */}
           </a>
         </button>
       </div>
