@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Lato:ital,wght@0,300;1,300&display=swap");
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -7,9 +9,8 @@
   isolation: isolate;
   width: 1152px;
   height: 142px;
-  background: white;
 }
-.profile_img {
+#profile_img {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,44 +21,37 @@
   border-radius: 275px;
 }
 
-.twitter {
+.username {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 0px;
   gap: 8px;
   width: 1152px;
   height: 30px;
-
-  /* Inside auto layout */
-
-  /* flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  z-index: 1; */
 }
 
-.twitter > h5 {
-  width: 1152px;
-  height: 30px;
-  font-family: "Inter";
+#twitter {
+  font-family: "Inter", "sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-
   color: #101828;
-
-  /* Inside auto layout */
-
-  /* flex: none;
-  order: 0;
-  flex-grow: 1; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  gap: 8px;
+  width: 1152px;
+  height: 30px;
 }
-.avatar {
+.share {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -66,13 +60,6 @@
   background: #ffffff;
   border: 1px dashed #d0d5dd;
   border-radius: 20px;
-
-  /* Inside auto layout */
-
-  /* flex: none;
-  order: 2;
-  flex-grow: 0;
-  z-index: 2; */
 }
 .avatar_img {
   display: flex;
@@ -88,4 +75,20 @@
   top: 15%;
   bottom: 15%;
   border-radius: 12px;
+}
+@media only screen and (max-width: 600px) {
+  .profile {
+    width: 343px;
+    height: 140px;
+  }
+  #twitter {
+    width: 343px;
+    height: 28px;
+  }
+  .share {
+    width: 40px;
+    height: 40px;
+    right: 0px;
+    top: 45px;
+  }
 }

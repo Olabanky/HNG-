@@ -11,12 +11,6 @@ const Social = () => {
           <div className="social_icons">
             <img src={slack} alt="" />
             <img src={github} alt="" />
-            {/* <button id="slack button">
-              <img src={slack} alt="" />
-            </button>
-            <button id="github">
-              <img src={github} alt="" />
-            </button> */}
           </div>
         </div>
       </div>
